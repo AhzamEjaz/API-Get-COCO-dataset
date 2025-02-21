@@ -5,7 +5,9 @@ Usage:
 
 `
 from COCODataset import COCODataset
+
 ccds = COCODataset()
+
 ccds.get_COCO_img(self, split = 'val', year = '2017', n_examples = 40)
 `
 Current version contains following download capability:
