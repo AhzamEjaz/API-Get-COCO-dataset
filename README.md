@@ -3,13 +3,13 @@ I've created an API to get COCO dataset.
 
 Usage:
 
-`
+```
 from COCODataset import COCODataset
 
 ccds = COCODataset()
 
 ccds.get_COCO_img(self, split = 'val', year = '2017', n_examples = 40)
-`
+```
 Current version contains following download capability:
 - split = 'val', year = '2014'
 - split = 'test', year = '2014'
