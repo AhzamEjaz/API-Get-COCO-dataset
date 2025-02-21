@@ -11,10 +11,10 @@ ccds = COCODataset()
 ccds.get_COCO_img(self, split = 'val', year = '2017', n_examples = 40)
 ```
 Current version contains following download capability:
-- split = 'val', year = '2014'
-- split = 'test', year = '2014'
-- split = 'test', year = '2015'
-- split = 'test', year = '2017'
+- split = `'val'`, year = `'2014'`
+- split = `'test'`, year = `'2014'`
+- split = `'test'`, year = `'2015'`
+- split = `'test'`, year = `'2017'`
 
 You have to pull the repository and in `./data` folder it will download the first n_examples and in scope of other parameters.
 
